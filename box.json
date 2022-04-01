@@ -1,0 +1,44 @@
+{
+    "name":"CommandBox CertBox",
+    "version":"0.0.0",
+    "author":"Brad WOod",
+    "location":"ForgeboxStorage",
+    "homepage":"https://github.com/commandbox-modules/commandbox-certbox",
+    "documentation":"",
+    "repository":{
+        "type":"Git",
+        "URL":"https://github.com/commandbox-modules/commandbox-certbox.git"
+    },
+    "bugs":"",
+    "slug":"commandbox-certbox",
+    "shortDescription":"A simple cert manager for CommandBox using Let's Encrypt",
+    "description":"",
+    "instructions":"",
+    "changelog":"",
+    "type":"modules",
+    "keywords":"commandbox,ssl,cert,letsencrypt,ACME",
+    "private":false,
+    "projectURL":"",
+    "contributors":[],
+    "dependencies":{
+        "jose4j-0.7.11":"jar:https://search.maven.org/remotecontent?filepath=org/bitbucket/b_c/jose4j/0.7.11/jose4j-0.7.11.jar",
+        "acme4j-client-2.12":"jar:https://search.maven.org/remotecontent?filepath=org/shredzone/acme4j/acme4j-client/2.12/acme4j-client-2.12.jar",
+        "acme4j-it-2.12":"jar:https://search.maven.org/remotecontent?filepath=org/shredzone/acme4j/acme4j-it/2.12/acme4j-it-2.12.jar",
+        "acme4j-smime-2.12":"jar:https://search.maven.org/remotecontent?filepath=org/shredzone/acme4j/acme4j-smime/2.12/acme4j-smime-2.12.jar",
+        "acme4j-utils-2.12":"jar:https://search.maven.org/remotecontent?filepath=org/shredzone/acme4j/acme4j-utils/2.12/acme4j-utils-2.12.jar"
+    },
+    "devDependencies":{},
+    "installPaths":{
+        "jose4j-0.7.11":"lib/jose4j-0.7.11/",
+        "acme4j-client-2.12":"lib/acme4j-client-2.12/",
+        "acme4j-it-2.12":"lib/acme4j-it-2.12/",
+        "acme4j-smime-2.12":"lib/acme4j-smime-2.12/",
+        "acme4j-utils-2.12":"lib/acme4j-utils-2.12/"
+    },
+    "scripts":{},
+    "ignore":[
+        "**/.*",
+        "/test/",
+        "/tests/"
+    ]
+}
